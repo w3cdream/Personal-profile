@@ -1,0 +1,208 @@
+/* 
+
+Version: 1.0
+
+Description: Base style.
+
+Author: cheris <zhangxiaoyang@ucfgroup.com>
+
+*/
+
+/* The Reset ---------------------------------- */
+
+body{background:#ebebeb url(../images/bg.jpg) no-repeat 50% 0; color:#858585;}
+
+a{ color:#858585;}
+
+a:hover{ color:#4B4B4B;}
+
+.wrap{ width:1200px; margin:0px auto;}
+
+.header{ width:100%; padding:30px 0 40px;}
+
+.logo-box{ float:left;}
+
+.logo-box h1{ width:260px; height:52px; background:url(../images/logo-cheris.png) no-repeat 0 50%; text-indent:-9999px;}
+
+.logo-box h1 a{ width:100%; height:100%; display:block;}
+
+.head-tool{ float:right; height:24px; line-height:24px; padding:12px 0;}
+
+.head-tool ul li{ float:left; padding:0px 5px;}
+
+/**/
+
+.main{width:100%; min-height:500px; background:#FEFEFE; margin-bottom:20px;}
+
+.content{ width:839px; border-right:1px solid #E1E1E1;}
+
+.banner{ width:100%; margin:0; padding:0;}
+
+.ds-con{ padding:20px 30px; width:780px;min-height:800px;}
+
+.ds-con #ds-thread #ds-reset .ds-powered-by a{visibility:hidden;}
+
+.sidebar{ float:right; width:360px; }
+
+.ibox-uc,.ibox-con,.wx2dCode_lis{ padding:20px; width:320px;border-bottom:1px solid #E1E1E1;}
+
+.ibox-img{ width:100%; text-align:center;}
+
+.ibox-img img{ border-radius:50%; border:2px solid #1796F9;}
+
+.ibox-uc h3{ font-size:18px; text-align: center; padding:10px 0; color:#4B4B4B;}
+
+.ibox-uc p{ font-size:12px;line-height:22px;}
+
+.ibox-con h2{ font-size:16px; padding-bottom:10px; height:26px; line-height: 26px; color:#4B4B4B;}
+
+.row{ width:100%; padding:5px 0; font-size:12px; line-height:22px;}
+
+.row label{ width:80px; display:block; float:left;}
+
+.row p{ margin-left:80px;}
+
+.row p a{ color:#1796F9;}
+
+.row p a:hover{ color:#1580ED;}
+
+.wx2dCode_list{ text-align:center;}
+
+.wx2dCode_list img{padding:20px 0 0; width:240px;}
+
+.wx2dCode_lis p{ padding:20px 0; line-height:22px;}
+
+.ibox-weibo{ margin-left:-1px;}
+
+.copyright{ font-size:14px; text-align:center; line-height:22px; padding:20px 0;}
+
+
+
+
+
+
+
+/*========ds-reset========*/
+#ds-thread{ border-top:1px solid #E5E5E5; margin:10px 0 0;}
+#ds-thread #ds-reset ul.ds-comments-tabs li.ds-tab a.ds-current {border:0px;color:#848568;text-shadow:none;background:#ffffff;;border-radius:5px; box-shadow:0 1px 2px rgba(0,0,0,.15), 0 1px 0 rgba(255,255,255,.75) inset;}
+#ds-thread #ds-reset .ds-highlight {font-family:Arial, Helvetica, sans-serif;font-size:14px;font-weight:bold;color:#848568 !important;}
+#ds-thread #ds-reset ul.ds-comments-tabs li.ds-tab a.ds-current:hover {color:#696a52;background:#888；;border-radius:5px; box-shadow:0 1px 2px rgba(0,0,0,.15), 0 1px 0 rgba(255,255,255,.75) inset;}
+#ds-thread {padding-left:30px;}
+#ds-thread #ds-reset li.ds-post,#ds-thread #ds-reset #ds-hot-posts {overflow:visible}
+#ds-thread #ds-reset .ds-post-self {padding:10px 0 10px 10px;}
+#ds-thread #ds-reset li.ds-post,#ds-thread #ds-reset .ds-post-self {border:0 !important;}
+#ds-thread #ds-reset li.ds-post{ overflow:visible !important;}
+#ds-reset .ds-avatar, #ds-thread #ds-reset ul.ds-children .ds-avatar {position:absolute !important;top:26px;left:-14px;padding:5px;width:36px !important;height:36px !important;box-shadow:-1px 0 1px rgba(0,0,0,.15) inset  !important;border-radius:46px  !important; background:#f4f4f4  !important;}
+#ds-thread #ds-reset ul.ds-children .ds-avatar {left:-23px;}
+#ds-thread .ds-avatar a {display:inline-block;padding:1px; width:32px;height:32px;border:1px solid #b9baa6;border-radius:50%; background-color:#fff !important}
+#ds-thread .ds-avatar a:hover {border-color:#de5a4e}
+#ds-thread .ds-avatar > img {margin:2px 0 0 2px}
+#ds-thread #ds-reset .ds-replybox {box-shadow:none;}
+#ds-thread #ds-reset ul.ds-children .ds-replybox.ds-inline-replybox a.ds-avatar,
+#ds-reset .ds-replybox.ds-inline-replybox a.ds-avatar {left: 0;top: 0; padding: 0;width: 32px !important;height: 32px !important; background: none;box-shadow: none; }
+#ds-reset .ds-replybox.ds-inline-replybox a.ds-avatar img {width: 32px !important;height: 32px !important; border-radius:50%;}
+#ds-reset .ds-replybox a.ds-avatar,
+#ds-reset .ds-replybox .ds-avatar img { padding:0;width:50px !important;height:50px !important; border-radius:5px; }
+#ds-reset .ds-avatar img { width:32px !important;height:32px !important;border-radius:32px !important;box-shadow:0 1px 3px rgba(0, 0, 0, 0.22) !important;
+							-webkit-transition:.4s all ease-in-out;-moz-transition:.4s all ease-in-out;-o-transition:.4s all ease-in-out;-ms-transition:.4s all ease-in-out;transition:.4s all ease-in-out;
+}
+.ds-post-self:hover .ds-avatar img {-webkit-transform:rotate(360deg);-moz-transform:rotate(360deg);-o-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}
+#ds-thread #ds-reset .ds-comment-body {background:url(../images/bg-ds.png);padding:15px 15px 12px 32px !important;border-radius:5px; box-shadow:0 1px 2px rgba(0,0,0,.15), 0 1px 0 rgba(255,255,255,.75) inset;}
+#ds-thread #ds-reset .ds-comment-body p{color:#787968}
+#ds-thread #ds-reset .ds-comments a.ds-user-name {font-weight:bold;color:#696A52 !important;}
+#ds-thread #ds-reset .ds-comments a.ds-user-name:hover {color:#D32 !important;}
+#ds-thread #ds-reset #ds-hot-posts {border:0}
+#ds-reset #ds-hot-posts .ds-gradient-bg {background:none;}
+#ds-reset #ds-bubble{ display:none !important;}
+#ds-reset #ds-bubble #ds-ctx .ds-ctx-entry {padding:0;}
+#ds-reset #ds-bubble .ds-avatar, #ds-reset #ds-bubble #ds-ctx-bubble .ds-avatar a {position:static;padding:0;border:0; background:none;box-shadow:none;}
+#ds-reset #ds-bubble .ds-avatar img, #ds-reset #ds-bubble #ds-ctx-bubble .ds-avatar a {width:45px !important;height:45px !important;}
+#ds-reset #ds-bubble .ds-user-name{padding-left:13px;}
+#ds-reset .ds-comment-body #ds-ctx {border-left:1px solid #b9baa6;background-color:#e8e8dc !important}
+#ds-reset #ds-ctx {margin-right:-15px}
+#ds-reset #ds-ctx .ds-ctx-entry {position:relative;padding:10px 30px 10px 10px;}
+#ds-reset #ds-ctx .ds-ctx-entry .ds-avatar {top:6px;left:5px;background:none;box-shadow:none;}
+#ds-reset #ds-ctx .ds-ctx-entry .ds-ctx-body {margin-left:46px;}
+#ds-reset #ds-ctx .ds-ctx-entry .ds-ctx-content {color:#787968}
+#ds-reset #ds-ctx .ds-ctx-entry .ds-ctx-head a {color:#696A52;font-weight:bold}
+#ds-thread #ds-reset .ds-powered-by{ display:none;}
+#ds-thread #ds-reset .ds-comments{ border-bottom:0px !important;}
+#ds-thread #ds-reset .ds-textarea-wrapper,#ds-reset .ds-gradient-bg{ background:transparent !important;}
+#ds-thread #ds-reset .ds-post-options,#ds-thread #ds-reset .ds-textarea-wrapper,#ds-thread #ds-reset .ds-post-button{ border:1px solid #E5E5E5 !important;}
+#ds-thread #ds-reset .ds-textarea-wrapper{ border-bottom: none !important;}
+#ds-thread #ds-reset .ds-post-button{ background:#FCFCFC !important; color:#888 !important; border-left:none !important;}
+#ds-wrapper #ds-reset .ds-dialog-footer{ display: none;}
+#ds-wrapper #ds-reset .ds-dialog-close{ top:10px !important;}
+#ds-thread #ds-reset .ds-replybox{padding:0 8px 0 60px !important;}
+
+.person{ float:left;margin-bottom: 20px;}
+.person h3{ line-height:40px; font-size:18px;}
+.p-show{ width:48%; float:left;}
+
+
+
+
+@media screen and (min-width:1440px) {
+
+.wrap{ width:1400px;}
+
+.content{width:1039px;}
+
+.ds-con{width:980px;}
+
+}
+
+@media screen and (min-width:1240px) and (max-width:1439px) {
+
+.main-project,.search-tit{ width:960px;margin:0px auto;}
+
+.wrap{ width:1200px;}
+
+.content{width:839px;}
+
+.ds-con{width:780px;}
+
+}
+
+@media only screen and (min-width:960px) and (max-width:1239px) {
+
+.wrap{ width:920px;}
+
+.content{width:559px;}
+
+.ds-con{width:500px;}
+
+}
+
+@media only screen and (min-width:641px) and (max-width:959px) {
+
+.wrap{ width:600px;}
+
+.content{width:600px;border:none; min-height:0 !important;}
+
+.ds-con{width:540px;}
+
+.sidebar{ float:none; width:100%; padding-bottom:40px;}
+
+.ibox-uc,.ibox-con{ padding:20px; width:560px;}
+
+}
+
+@media only screen and (max-width:640px) {
+
+.wrap{ width:360px;}
+
+.content{width:360px;border:none; min-height:0 !important;}
+
+.ds-con{width:300px;}
+
+.sidebar{ float:none; width:100%; padding-bottom:40px;}
+
+.ibox-uc,.ibox-con{ padding:20px; width:320px;}
+.person{  width:100%;float:left;}
+.p-show{ width:100%; float:left;}
+
+}
+
+
+

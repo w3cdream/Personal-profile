@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* 
+Version: 1.0
+Description: Base style.
+Author: cheris <zhangxiaoyang@ucfgroup.com>
+*/
+/* The Reset ---------------------------------- */
+body, 
+div,dl,dt,dd,ul,ol,li,
+h1,h2,h3,h4,h5,h6,pre,code,
+form,fieldset,legend,input,textarea,
+p,blockquote,th,td,hr,button,
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section{margin:0;padding:0;}
+header,footer,section,article,aside,nav,hgroup,address,figure,figcaption,menu,details{display:block;}
+table{border-collapse:collapse;border-spacing:0;}
+caption,th{text-align:left;font-weight:normal;}
+html,body,fieldset,img,iframe,abbr{border:0;}
+html{-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;}
+i,cite,em,var,address,dfn{font-style:normal;}
+[hidefocus],summary{outline:0;}
+ol,ul,li{list-style:none;}
+h1,h2,h3,h4,h5,h6,small{font-size:100%;font-weight:normal}
+audio,canvas,video{display:inline-block; *display:inline; *zoom:1;}
+sup,sub{font-size:83%;line-height:0;position:relative;vertical-align:baseline;}
+sup{top:-0.5em;}
+sub{bottom:-0.25em;}
+pre,code,kbd,samp{font-family:inherit;}
+pre{word-break:break-all;word-wrap:break-word;white-space:pre-wrap;} 
+q:before,q:after{content:none;}
+textarea{overflow:auto;resize:none;}
+label,summary{cursor:default;}
+a,button{cursor:pointer;}
+del,ins,u,s,a,a:hover{text-decoration:none;}
+/*MARK RESET*/
+del{text-decoration: line-through;}
+mark{background:#ff0;}
+iframe{	display: block;}
+/*FORM RESET*/
+input[type="submit"]{ border:none;}
+button,input,select,textarea{font-size: 100%;}
+button[disabled],html input[disabled]{cursor: default;}
+input[type="checkbox"],input[type="radio"] {padding: 0;box-sizing: border-box; cursor:pointer;}
+input[type="search"] {-webkit-box-sizing: content-box;	-moz-box-sizing: content-box;box-sizing: content-box;-webkit-appearance: textfield;}
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {-webkit-appearance:none;}
+button::-moz-focus-inner, input::-moz-focus-inner {padding:0;border:0;}
+/* CLEARFIX */
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden;}
+.clearfix { display: inline-block;}
+* html .clearfix { height: 1%;}
+.clearfix { display: block;}
+/*inline block*/
+.inline_block {display: inline-block; *display: inline; zoom: 1;}
+/*PLACEHOLDER SET*/
+::-webkit-input-placeholder{color:#444;}/* WebKit browsers */
+:-moz-placeholder{ color:#444;} /* Mozilla Firefox 4 to 18 */
+::-moz-placeholder{color:#444;}/* Mozilla Firefox 19+ */
+:-ms-input-placeholder{color:#444;}/* Internet Explorer 10+ */
+/*A FOCUS*/
+a {outline: none;}
+a:active {star:expression(this.onFocus=this.blur());}
+:focus { outline:0;}
+/* FONT RESET */
+html, body, button, input, select, textarea {font: 12px/1.5 "Hiragino Sans GB", "\u5fae\u8f6f\u96c5\u9ed1", "\5FAE\8F6F\96C5\9ED1", tahoma, arial, "\5b8b\4f53", sans-serif;}
+/* POSITION */
+.tl{ text-align:left;}
+.tc{ text-align:center;}
+.tr{ text-align:right;}
+.bc{ margin-left:auto; margin-right: auto;}
+.fl{ float:left; display: inline;}
+.fr{ float:right; display: inline;}
+.vm{ vertical-align:middle;}
+.vt{ vertical-align:top;}
+.pr{ position:relative;}
+.pa{ position:absolute;}
+.abs-right{ position: absolute; right:0;}
+.abs-left{ position: absolute; left:0;}
+.hidden{ visibility: hidden;}
+.none{ display: none!important;}
+.i-box{position:relative;background:#fff;overflow:hidden;}
+/*FONT*/
+.fb{font-weight:bold;}
+.fn{font-weight:normal;}
+.unl{text-decoration:underline;}
+.no_unl{text-decoration:none;}
+.word_break{word-break:break-all; word-wrap:break-word; white-space:pre-wrap;}
+/*COLOR*/
+.color_gray{color:#999;}
+.color_red{color:#f00;}
+.color_blue{color:#00f;}
+.color_yellow{color:#ff0;}
+.color_black{color:#000;}
+.color_white{color:#fff;}
+.color_link{color:#597ec5;}
+/* CLEARFIX */
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden;}
+.clearfix { display: inline-block;}
+* html .clearfix { height: 1%;}
+.clearfix { display: block;}
